@@ -1,0 +1,9 @@
+
+.flex {
+    display: flex;
+}
+.subNameRow{
+    width: 95% !important;
+    margin-left: 5% !important;
+    margin-bottom: 0px !important;
+}
