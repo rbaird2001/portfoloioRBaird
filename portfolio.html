@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/indexstyle.css">
+
+</head>
+
+<body>
+    <!--begin main content-->
+    <div id="pageContent" class="container">
+        <div id="slideNavRow" class="row">
+            <div id="slideNavBtnCol" class="col s4">
+                <div class="sidenav-trigger btn" data-target="slideOut"><i class="material-icons">menu</i></div>
+            </div>
+        </div>
+        <div id="sideNavRow" class="row">
+            <div id="smallNav">
+                <ul id="slideOut" class="sidenav">
+                    <li id="homeSelect"><a href="index.html">Home</a></li>
+                    <li id="historySelect"><a href="history.html">Professional History</a></li>
+                    <li id="portfolioSelect"><a href="portfolio.html">Portfolio</a> </li>
+                    <li id="skillSelect"><a href="skills.html">Relevant Skills</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- <div id="titleHead" class="row">
+            <div id="nameCol" class="col s6">
+                <h6 id="myName">My Name Is Here</h6>
+                <div id="subNameRow1" class="row subNameRow">
+                    <div id="subName1" class="col s12">
+                        <span id="test">Developer</span>
+                    </div>
+                </div>
+                <div id="subNameRow2" class="row subNameRow">
+                    <div id="subName2" class="col 12">
+                        <span>Consultant</span>
+                    </div>
+                </div>
+                <div id="subNameRow3" class="row subNameRow">
+                    <div id="subName3" class="col 12">
+                        <span>Trainer</span>
+                    </div>
+                </div>
+            </div>
+            <div id="picCol" class="col s6">
+                <img src="https://via.placeholder.com/150" alt="">
+            </div>
+        </div> -->
+        <div class="row">
+            <div class="col s12">
+                <div>
+                    <hr>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end maincontent div -->
+
+    <!--begin dynamic content-->
+    <div id="detailContent" class="container">
+        <div class="row" id="dynContent">
+        </div>
+    </div>
+    <!--end dynamic content-->
+    <div id="scripts">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script src="assets/js/portfolio.js"></script>
+        <script type="text/javascript">
+            document.addEventListener('DOMContentLoaded', function () {
+                var elems = document.querySelectorAll('.sidenav');
+                var instances = M.Sidenav.init(elems);
+            });
+        </script>
+    </div>
+
+</body>
+
+</html>
