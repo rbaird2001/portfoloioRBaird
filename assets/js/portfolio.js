@@ -6,7 +6,7 @@ var portfolio = {
         name: "Hangman Game",
         skills: ["Javascript"],
         image: "assets/img/penny.png",
-        code: "https://rbaird2001.github.io/hwWordGuessGame/",
+        demo: "https://rbaird2001.github.io/hwWordGuessGame/",
         git: "https://github.com/rbaird2001/hwWordGuessGame",
         desc: "A hangman style word guessing game using the characters from the Cohen Brothers filmography as the words."
     },
