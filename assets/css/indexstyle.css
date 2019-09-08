@@ -1,4 +1,10 @@
-
+i.tiny{
+    font-size: .8rem;
+}
+.bulleted{
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
 .flex {
     display: flex;
 }
@@ -6,4 +12,19 @@
     width: 95% !important;
     margin-left: 5% !important;
     margin-bottom: 0px !important;
+}
+.card-title{
+    padding-top: 30px;
+}
+.card-content{
+    min-height: 250px;
+}
+.card-reveal{
+    padding: 8px 12px !important;
+}
+.org{
+    padding-top: 30px
+}
+#myName{
+    width: 100%;
 }

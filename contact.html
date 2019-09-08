@@ -5,11 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Portfolio</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/indexstyle.css">
-
 </head>
 
 <body>
@@ -37,33 +36,22 @@
                 </ul>
             </div>
         </div>
-        <div class="row">
-            <div class="col s12">
-                <div>
-                    <hr>
-                </div>
+        <!--begin dynamic content-->
+        <div id="detailContent" class="container">
+            <div class="row" id="dynContent">
+                
             </div>
         </div>
-    </div>
-    <!--end maincontent div -->
-
-    <!--begin dynamic content-->
-    <div id="detailContent" class="container">
-        <div class="row" id="dynContent">
+        <!--end dynamic content-->
+        <div id="scripts">
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+            <script type="text/javascript">
+                document.addEventListener('DOMContentLoaded', function () {
+                    var elems = document.querySelectorAll('.sidenav');
+                    var instances = M.Sidenav.init(elems);
+                });
+            </script>
         </div>
-    </div>
-    <!--end dynamic content-->
-    <div id="scripts">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-        <script src="assets/js/portfolio.js"></script>
-        <script type="text/javascript">
-            document.addEventListener('DOMContentLoaded', function () {
-                var elems = document.querySelectorAll('.sidenav');
-                var instances = M.Sidenav.init(elems);
-            });
-        </script>
-    </div>
-
 </body>
 
 </html>

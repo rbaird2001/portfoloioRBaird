@@ -18,7 +18,7 @@ var objHistory = {
         citySt:"South Jordan, UT",
         desc:["Noted for being one of the few with expertise in all of LANDesk's product lines. Consulted in Management Suite and Service Desk where achieved success integrating products to clients worldwide."
         , "Received accolades for usability of implementations and overall professionalism. Efforts played key role in growing Professional Services 5% - 15% annually."
-        , "Use of custom scripts and SQL code instrumental in overcoming product limitations."
+        , "Made extensive use of custom scripts and SQL code to overcome product limitations."
         ]
     },
     hist03:{
@@ -27,7 +27,7 @@ var objHistory = {
         org: "Bittercreek Technologies",
         citySt:"Salt Lake City, UT",
         desc:["Implement Hornbill Service Manager at customer sites. Maintain and customize its functionality for the customer."
-        , "Use Javascript, PHP, MySql, and other coding skills to solve problems and innovate solutions."
+        , "Use Javascript, PHP, MySql, and other coding skills to solve problems and innovate solutions when boxed product is insufficient for customer needs."
         ]
     },
 }
@@ -49,25 +49,22 @@ window.onload = function (){
          `<div class="col s12">
             <div class="card">
                 <div class="card-content">
-                    <p>${curItem.dateRange}</p>
-                    <span class="card-title activator grey-text text-darken-4">${curItem.title}
-                        <i class="material-icons right">more_vert</i>
-                    </span>
-                    <p>${curItem.org}</p>
+                    <p class="activator">${curItem.dateRange}<i class="material-icons right">more_vert</i></p>
+                    <span class="card-title grey-text text-darken-4">${curItem.title}</span>
+                    <p class="org">${curItem.org}</p>
                     <p>${curItem.citySt}</p>
                 </div>
-                <div class="card-action">
-                    <span class="activator">Click for detail<span>
+                <div class="card-action activator">
+                    <span class="activator clickAct">Click for more detail<span>
                 </div>
                 <div class="card-reveal">
-                    <span class="card-title">${curItem.org} 
-                         <i class="card-title material-icons right">close</i>
-                    </span>
+                    <span class="card-title">${curItem.org}<i class="material-icons right">close</i></span>
                     `
         for(j=0;j<curItem.desc.length;j++){
             let description = curItem.desc[j];
             histBuilder2 +=
-                    `<p>
+                    `
+                    <p>
                         ${description}
                     </p>
                     `
