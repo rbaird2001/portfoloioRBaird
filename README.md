@@ -42,7 +42,8 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 Images used are for demonstration purposes only and are intended not for distribution. Images are copyrighted and subject to copyright restrictions.
 
 ## Acknowledgements
-Dave Winer for guidance on Slack API: https://gist.github.com/scripting/2ab9b6f1f38fe699e451
+Dave Winer for guidance on Slack API: https://gist.github.com/scripting/2ab9b6f1f38fe699e451 
+
 Bahaar Rokhova for guidance on Materialze CSS: https://github.com/rokhva 
 
 
