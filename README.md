@@ -9,7 +9,7 @@ It also integrates with Slack to receive messages from the Contact form.
 
 ![imageSample01](https://github.com/rbaird2001/portfoloioRBaird/blob/master/assets/img/portfolioSamplePage.png)
 
-![imageSample02](https://github.com/rbaird2001/portfoloioRBaird/blob/master/assets/img/portfolioSideNav.png)
+![imageSample02](https://github.com/rbaird2001/portfoloioRBaird/blob/master/assets/img/portfolioSideNavSample.png)
 
 ![imageSample03](https://github.com/rbaird2001/portfoloioRBaird/blob/master/assets/img/portfolioCardSample01.png)
 
