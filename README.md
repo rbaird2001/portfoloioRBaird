@@ -10,13 +10,13 @@ It also integrates with Slack to receive messages from the Contact form.
 ![imageSample01](https://github.com/rbaird2001/portfoloioRBaird/blob/master/assets/img/portfolioSamplePage.png)
 
 ![imageSample02]
-https://github.com/rbaird2001/portfoloioRBaird/blob/master/assets/img/portfolioSideNav.png
+(https://github.com/rbaird2001/portfoloioRBaird/blob/master/assets/img/portfolioSideNav.png)
 
 ![imageSample03]
-https://github.com/rbaird2001/portfoloioRBaird/blob/master/assets/img/portfolioCardSample01.png
+(https://github.com/rbaird2001/portfoloioRBaird/blob/master/assets/img/portfolioCardSample01.png)
 
 ![imageSample04]
-https://github.com/rbaird2001/portfoloioRBaird/blob/master/assets/img/portfolioCardSample02.png
+(https://github.com/rbaird2001/portfoloioRBaird/blob/master/assets/img/portfolioCardSample02.png)
 
 Much of the changes in the back-end are objects that are used to create dynamic content that is much more easily updated. 
 
