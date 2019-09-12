@@ -19,9 +19,9 @@ $(document).ready(function () {
     <div id="sideNavRow" class="row">
         <div id="smallNav">
             <ul id="slideOut" class="sidenav">
-                <li id="homeSelect"><a href="index.html">Home</a></li>
+                <li id="homeSelect"><a href="index.html">Portfolio</a></li>
+                <li id="portfolioSelect"><a href="about.html">About Me</a> </li>
                 <li id="historySelect"><a href="history.html">Professional History</a></li>
-                <li id="portfolioSelect"><a href="portfolio.html">Portfolio</a> </li>
                 <li id="skillSelect"><a href="skills.html">Relevant Skills</a></li>
                 <li id="contactSelect"><a href="contact.html">Contact Me</a></li>
             </ul>
