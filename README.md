@@ -7,8 +7,7 @@ This portfolio updates to a cleaner look that is fully mobile capbable. It utili
 
 It also integrates with Slack to receive messages from the Contact form.
 
-![imageSample01]
-https://github.com/rbaird2001/portfoloioRBaird/blob/master/assets/img/portfolioSamplePage.png
+![imageSample01](https://github.com/rbaird2001/portfoloioRBaird/assets/img/portfolioSamplePage.png)
 
 ![imageSample02]
 https://github.com/rbaird2001/portfoloioRBaird/blob/master/assets/img/portfolioSideNav.png
