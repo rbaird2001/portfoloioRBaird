@@ -3,11 +3,24 @@
 ## Robert Baird's Porfolio and CV
 
 ## Description
-This portfolio updates to a cleaner look that is fully mobile capbable. It utilizes new card elements in for presenting additional details while keeping the overall appearance simple. Much of the changes are found in the back-end where objects and JS scripting is used to create dynamic content that is much more easily updated. 
+This portfolio updates to a cleaner look that is fully mobile capbable. It utilizes as sidenav feature and new card elements in for presenting additional details while keeping the overall appearance simple. 
 
 It also integrates with Slack to receive messages from the Contact form.
-![Image of Slack message]
-(/assets/img/slackmsg.png)
+
+![imageSample01]
+https://github.com/rbaird2001/portfoloioRBaird/blob/master/assets/img/portfolioSamplePage.png
+
+![imageSample02]
+https://github.com/rbaird2001/portfoloioRBaird/blob/master/assets/img/portfolioSideNav.png
+
+![imageSample03]
+https://github.com/rbaird2001/portfoloioRBaird/blob/master/assets/img/portfolioCardSample01.png
+
+![imageSample04]
+https://github.com/rbaird2001/portfoloioRBaird/blob/master/assets/img/portfolioCardSample02.png
+
+Much of the changes in the back-end are objects that are used to create dynamic content that is much more easily updated. 
+
 
 ## equirements
 Chrome or Firefox browser preferred. JQuery implementation may not be compatible with Inernet Explorer 9 or earlier. Slack account with Webhook API needed. Current code includes personal Slack Webhook, which will be removed upon any evidence of use outside of demonstration purposes. Details on Slack API can be found under the *Built With* section.
