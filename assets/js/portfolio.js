@@ -81,7 +81,7 @@ window.onload = function allPortfolio(){
                     <p><a href=${curItem.git}>Click here for code.</a></p>
                 </div>
                 <div class="card-reveal">
-                    <span class="card-title">Portfolio Item 
+                    <span class="card-title">${curItem.name} 
                          <i class="card-title material-icons right">close</i>
                     </span>
                     <ul>
