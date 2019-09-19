@@ -2,7 +2,7 @@
 var objHistory = {
     tableOfContents: ["hist03","hist02","hist01"],
     hist01: {
-        dateRange: "Mar. 1996 - Feb. 2005 ",
+        dateRange: "Mar. 1996 - Feb. 2005",
         title: "IT Director & Technical Trainer",
         org: "New Horizons Computer Learning Center",
         citySt:"Salt Lake City, UT",
@@ -22,7 +22,7 @@ var objHistory = {
         ]
     },
     hist03:{
-        dateRange: "Feb. 2012 - Present 2005 ",
+        dateRange: "Feb. 2012 - Present",
         title: "Product Specialist & Developer",
         org: "Bittercreek Technologies",
         citySt:"Salt Lake City, UT",
