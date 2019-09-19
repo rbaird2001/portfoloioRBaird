@@ -1,7 +1,7 @@
 
 
 var portfolio = {
-    tableOfContents: ["hangman","simpleGame","trivia","giphySearch","rpslk","projectOne"],
+    tableOfContents: ["hangman","simpleGame","trivia","giphySearch","rpslk","projectOne","liri"],
     hangman: {
         name: "Hangman Game",
         skills: ["Javascript"],
@@ -49,7 +49,15 @@ var portfolio = {
         demo: "https://rbaird2001.github.io/ProjectOne/",
         git:"https://github.com/rbaird2001/ProjectOne",
         desc:"A hiking trail locator connected to Spotify for activity related playlists."
-    }
+    },
+    liri:{
+        name: "Liri Search",
+        skills: ["NodeJS","JSON"],
+        image: "assets/img/liri.png",
+        demo: "https://github.com/rbaird2001/liri-node-app",
+        git:"https://github.com/rbaird2001/liri-node-app",
+        desc:"A concert, movie, and song application. Note that this is a NodeJS CLI app. There is no web interface to demo."
+    },
     
 };
 
