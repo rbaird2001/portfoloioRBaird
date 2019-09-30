@@ -61,9 +61,10 @@ var portfolio = {
     bamazon:{
         name:"Bamazon",
         skills:["MySql","NodeJS","Constructors/Prototypes"],
-        demo: "https://github.com/rbaird2001/bamazon",
         image:"assets/img/bamazon.png",
-        git: "https://github.com/rbaird2001/bamazon"
+        demo: "https://github.com/rbaird2001/bamazon",
+        git: "https://github.com/rbaird2001/bamazon",
+        desc:"A CLI based inventory selection and management tool featuring MySql."
     }
     
 };
