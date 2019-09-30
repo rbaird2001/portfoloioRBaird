@@ -1,7 +1,7 @@
 
 
 var portfolio = {
-    tableOfContents: ["hangman","simpleGame","trivia","giphySearch","rpslk","projectOne","liri"],
+    tableOfContents: ["hangman","simpleGame","trivia","giphySearch","rpslk","projectOne","liri","bamazon"],
     hangman: {
         name: "Hangman Game",
         skills: ["Javascript"],
@@ -58,6 +58,12 @@ var portfolio = {
         git:"https://github.com/rbaird2001/liri-node-app",
         desc:"A concert, movie, and song application. Note that this is a NodeJS CLI app. There is no web interface to demo."
     },
+    bamazon:{
+        name:"Bamazon",
+        skills:["MySql","NodeJS","Constructors/Prototypes"],
+        demo: "https://github.com/rbaird2001/bamazon",
+        git: "https://github.com/rbaird2001/bamazon"
+    }
     
 };
 
