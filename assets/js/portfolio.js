@@ -62,6 +62,7 @@ var portfolio = {
         name:"Bamazon",
         skills:["MySql","NodeJS","Constructors/Prototypes"],
         demo: "https://github.com/rbaird2001/bamazon",
+        image:"assets/img/bamazon.png",
         git: "https://github.com/rbaird2001/bamazon"
     }
     
