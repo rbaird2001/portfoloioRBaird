@@ -1,7 +1,7 @@
 
 
 var portfolio = {
-    tableOfContents: ["hangman","simpleGame","trivia","giphySearch","rpslk","projectOne","liri","bamazon"],
+    tableOfContents: ["hangman","simpleGame","trivia","giphySearch","rpslk","projectOne","liri","bamazon","matchMaester"],
     hangman: {
         name: "Hangman Game",
         skills: ["Javascript"],
@@ -64,6 +64,14 @@ var portfolio = {
         image:"assets/img/bamazon.png",
         demo: "https://github.com/rbaird2001/bamazon",
         git: "https://github.com/rbaird2001/bamazon",
+        desc:"A CLI based inventory selection and management tool featuring MySql."
+    },
+    matchMaester:{
+        name:"Match Maester",
+        skills:["Express","NodeJS","JSON"],
+        image:"assets/img/matchMaester.png",
+        demo: "https://murmuring-caverns-64005.herokuapp.com/",
+        git: "https://github.com/rbaird2001/FriendFinder",
         desc:"A CLI based inventory selection and management tool featuring MySql."
     }
     
