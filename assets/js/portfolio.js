@@ -1,7 +1,7 @@
 
 
 var portfolio = {
-    tableOfContents: ["hangman","simpleGame","trivia","giphySearch","rpslk","projectOne","liri","bamazon","matchMaester"],
+    tableOfContents: ["hangman","simpleGame","trivia","giphySearch","rpslk","projectOne","liri","bamazon","matchMaester","burger"],
     hangman: {
         name: "Hangman Game",
         skills: ["Javascript"],
@@ -72,7 +72,15 @@ var portfolio = {
         image:"assets/img/matchMaester.png",
         demo: "https://murmuring-caverns-64005.herokuapp.com/",
         git: "https://github.com/rbaird2001/FriendFinder",
-        desc:"A CLI based inventory selection and management tool featuring MySql."
+        desc:"A questionaire to find your match."
+    },
+    burger: {
+        name:"Thy Burger",
+        skills:["MySql","MVC","Handlebars","Express"],
+        image:"assets/img/burger.png",
+        demo:"https://enigmatic-scrubland-94807.herokuapp.com/",
+        git:"https://github.com/rbaird2001/burger",
+        desc:"A simple burger adding and devouring web app."
     }
     
 };
